@@ -1,7 +1,6 @@
 <?php
 namespace NahidulHasan\EloquentFilter;
 
-use App\Filters\QueryFilters;
 use Illuminate\Database\Eloquent\Builder;
 
 trait Filterable
