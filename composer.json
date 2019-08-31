@@ -10,5 +10,19 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+
+    "autoload": {
+      "psr-4": {
+        "NahidulHasan\\EloquentFilter\\": "src/"
+      }
+    },
+
+    "extra": {
+      "laravel": {
+        "providers": [
+          "NahidulHasan\\EloquentFilter\\EloquentFilterServiceProvider"
+        ]
+      }
+    }
 }
