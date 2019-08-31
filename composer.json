@@ -1,0 +1,14 @@
+{
+    "name": "nahidulhasan/eloquent-filter",
+    "description": "Laravel eloquent query filter",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nahidul Hasan",
+            "email": "nahidul.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
