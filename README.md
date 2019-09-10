@@ -1,12 +1,9 @@
 # Laravel Eloquent Filter  
 
   [![Latest Stable Version](https://poser.pugx.org/nahidulhasan/eloquent-filter/v/stable)](https://packagist.org/packages/nahidulhasan/eloquent-filter)
-  
-  [![Total Downloads](https://poser.pugx.org/nahidulhasan/eloquent-filter/downloads)](https://packagist.org/packages/nahidulhasan/eloquent-filter)
-  
+   [![Total Downloads](https://poser.pugx.org/nahidulhasan/eloquent-filter/downloads)](https://packagist.org/packages/nahidulhasan/eloquent-filter)
   [![Latest Unstable Version](https://poser.pugx.org/nahidulhasan/eloquent-filter/v/unstable)](https://packagist.org/packages/nahidulhasan/eloquent-filter)
-  
-  [![License](https://poser.pugx.org/nahidulhasan/eloquent-filter/license)](https://packagist.org/packages/nahidulhasan/eloquent-filter)
+   [![License](https://poser.pugx.org/nahidulhasan/eloquent-filter/license)](https://packagist.org/packages/nahidulhasan/eloquent-filter)
   
 
 
