@@ -96,6 +96,11 @@ use Illuminate\Http\Request;
  }  
   
 ```  
+
+If you go to this link you will get all code: 
+https://github.com/nahidulhasan/laravel-eloquent-query-filtering
+
+
 ### Thanks to :  
 https://github.com/laracasts/Dedicated-Query-String-Filtering  
   
