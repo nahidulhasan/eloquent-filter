@@ -1,5 +1,5 @@
 # Laravel Eloquent Filter  
-  This module lets you filter Eloquent data using query filters.  
+  This simple package helps you filter Eloquent data using query filters.  
   
 ## Installation  
  
