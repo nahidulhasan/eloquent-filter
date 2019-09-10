@@ -12,8 +12,9 @@ composer require nahidulhasan/eloquent-filter
   
 ## Getting started  
   
-Use the trait `NahidulHasan\EloquentFilter\Filterable` in your eloquent model.    
-Create a new class by extending the class `NahidulHasan\EloquentFilter\QueryFilters` and define your custom filters  as methods with one argument. Where function names are the filter argument name and the arguments are the value.   
+Use the trait `NahidulHasan\EloquentFilter\Filterable` in your eloquent model.
+
+Create a new class by extending the class `NahidulHasan\EloquentFilter\QueryFilters` and define your custom filters as methods with one argument. Where function names are the filter argument name and the arguments are the value.   
   
 Let's assume you want to allow to filter articles data. Please see the following code.  
   
@@ -32,7 +33,8 @@ class Article extends Model
   * The attributes that are mass assignable. 
   *  @var array 
   */ 
-  protected $fillable = [ 'title', 'body' ];}  
+  protected $fillable = [ 'title', 'body' ];
+}  
   
 ```  
   
@@ -56,12 +58,14 @@ class ArticleFilters extends QueryFilters
   * @internal param string $level 
   */ 
  public function title($title) { 
- return $this->builder->where('title', 'like', '%' .$title.'%'); }  
+ return $this->builder->where('title', 'like', '%' .$title.'%'); 
+ }  
 }  
 ```  
   
-With this class we can use the http query string : `title=article_name` or any combination of these filters. It is up to you to define if you will use AND wheres or OR.    
-In the controller you can apply these filters like :    
+With this class we can use the http query string : `title=article_name` or any combination of these filters. It is up to you to define if you will use AND wheres or OR.   
+
+Now in the controller you can apply these filters like as described in below  :    
   
   
 ```php  
